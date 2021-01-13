@@ -1,0 +1,14 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, azureml_logging=False, bf16=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='./data-bin/MERGED', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, reset_logging=True, scoring='bleu', seed=1, source_lang='en', srcdict=None, suppress_crashes=False, target_lang='ta', task='translation', tensorboard_logdir=None, testpref='intermediate_datasets/BPE/MERGED/test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='intermediate_datasets/BPE/MERGED/train', user_dir=None, validpref='intermediate_datasets/BPE/MERGED/val', wandb_project=None, workers=20)
+[en] Dictionary: 18816 types
+[en] intermediate_datasets/BPE/MERGED/train.en: 319896 sents, 14206045 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 18816 types
+[en] intermediate_datasets/BPE/MERGED/val.en: 23991 sents, 734341 tokens, 0.0372% replaced by <unk>
+[en] Dictionary: 18816 types
+[en] intermediate_datasets/BPE/MERGED/test.en: 24988 sents, 775552 tokens, 0.0369% replaced by <unk>
+[ta] Dictionary: 48760 types
+[ta] intermediate_datasets/BPE/MERGED/train.ta: 319896 sents, 9203772 tokens, 0.0% replaced by <unk>
+[ta] Dictionary: 48760 types
+[ta] intermediate_datasets/BPE/MERGED/val.ta: 23991 sents, 580502 tokens, 0.0515% replaced by <unk>
+[ta] Dictionary: 48760 types
+[ta] intermediate_datasets/BPE/MERGED/test.ta: 24988 sents, 607584 tokens, 0.0556% replaced by <unk>
+Wrote preprocessed data to ./data-bin/MERGED

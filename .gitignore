@@ -1,0 +1,12 @@
+#datasets/*
+# bpe_model/
+# data-bin/
+intermediate_datasets/
+#exclude log
+train.log
+tensorboard_log
+datasets/
+#exclude checkpoints
+checkpoint/
+
+.vscode/
